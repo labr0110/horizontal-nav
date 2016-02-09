@@ -1,9 +1,9 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1 {
@@ -16,9 +16,11 @@ h1 {
 }
 
 nav {
+  display: inline-block;
   background-color: #723835;
   margin: 0;
   padding: 0;
+  border-radius: 1.5px;
 }
 
 a {
