@@ -1,0 +1,33 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Bevan", sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: #79766f;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #723835;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: #ff332a;
+}
